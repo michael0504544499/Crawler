@@ -1,0 +1,9 @@
+
+
+keytool -genkey -alias myalias -keyalg RSA -keystore mykeystore.jks
+
+
+
+
+
+keytool -certreq -keyalg RSA -alias myalias -file certreq.csr -keystore mykeystore.jks
